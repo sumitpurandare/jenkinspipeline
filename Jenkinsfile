@@ -12,7 +12,7 @@ stages{
             echo "deploy step is successful"
             }
         }
-        tage('test'){
+        stage('test'){
         steps{
             echo "test step is successfull"
             }
